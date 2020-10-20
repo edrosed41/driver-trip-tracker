@@ -17,6 +17,6 @@ app.use(express.static(path.join(__dirname, '/dist')));
 app.use('/api/drivers', driverRouter);
 app.use('/api/trips', tripRouter);
 
-app.listen(5000, () => console.log('driver tracker app is running @ port:5000'));
+app.listen(process.env.PORT || 5000, () => console.log('driver tracker app is running @ port:5000'));
 
 module.exports = app;
