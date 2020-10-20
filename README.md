@@ -1,10 +1,9 @@
 # driver-trip-tracker
 
 ## Description
-```
 Track Driver Trips by uploading a txt file and then the application process the uploaded file and displays the result.
 You can test the application in https://driver-trip-tracker.herokuapp.com. 
-```
+
 
 ## Project setup
 ```
