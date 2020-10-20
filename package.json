@@ -16,8 +16,8 @@
     "startbackend": "export NODE_ENV=dev && gulp",
     "startfrontend": "vue-cli-service serve --mode dev",
     "test": "export NODE_ENV=test && mocha",
-    "postinstall": "vue-cli-service build && export NODE_ENV=deploy",
-    "start": "node app.js"
+    "postinstall": "vue-cli-service build",
+    "start": "export NODE_ENV=deploy && node app.js"
   },
   "dependencies": {
     "axios": "^0.20.0",
