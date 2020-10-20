@@ -1,0 +1,4 @@
+{ 
+        "DB_HOST": "mongodb+srv://mongodbuser:dROty3OFQaFcebIo@cluster0.fxels.mongodb.net/driver-trip-tracker?retryWrites=true&w=majority",
+        "DB_NAME": "driver-trip-tracker"
+}
