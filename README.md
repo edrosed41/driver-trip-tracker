@@ -15,13 +15,13 @@ npm install
 ```
 npm run startbackend
 ```
-You can then visit http://localhost:5000
-For the api:
-Upload trips: POST http://localhost:5000/api/trips/upload
-Get all trips: GET http://localhost:5000/api/trips
-Clear all trips: DELETE http://localhost:5000/api/trips
-
-Note: Make sure to install mongodb v4+.  
+You can then visit http://localhost:5000<br />
+For the api: <br />
+Upload trips: POST http://localhost:5000/api/trips/upload <br />
+Get all trips: GET http://localhost:5000/api/trips <br />
+Clear all trips: DELETE http://localhost:5000/api/trips<br />
+<br /><br />
+Note: Make sure to install mongodb v4+.  <br />
 
 ### Customize configuration
 See [Configuration Reference](https://cli.vuejs.org/config/).
